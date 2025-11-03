@@ -1,5 +1,6 @@
 declare module 'react' {
   export type FormEvent<T = any> = any
+  export type ChangeEvent<T = any> = { target: T; currentTarget: T }
   export type Dispatch<A> = (value: A | ((prev: A) => A)) => void
   export function useState<S>(initialState: S | (() => S)): [S, Dispatch<S>]
   export function useEffect(effect: (...args: any[]) => any, deps?: any[]): void
