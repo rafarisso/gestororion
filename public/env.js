@@ -1,4 +1,4 @@
 window.ENV = {
-  VITE_SUPABASE_URL: "",
-  VITE_SUPABASE_ANON_KEY: ""
+  VITE_SUPABASE_URL: "https://slpcsyjgggaseyedjgcy.supabase.co",
+  VITE_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNscGNzeWpnZ2dhc2V5ZWRqZ2N5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIxNzY4OTksImV4cCI6MjA3Nzc1Mjg5OX0.kpxxsT9CX-uU_af_krp7U67OZHTSzAvXIzGx09Z7wq4"
 };
