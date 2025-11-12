@@ -41,17 +41,29 @@ O foco é substituir planilhas e processos manuais por um **sistema moderno, seg
 
 gestororion/
 ├── 📂 public/ # Assets estáticos
+
 ├── 📂 src/
+
 │ ├── 📁 components/ # Componentes reutilizáveis
+
 │ ├── 📁 pages/ # Telas principais
+
 │ ├── 📁 services/ # Integração com Supabase, APIs e regras de negócio
+
 │ ├── 📁 hooks/ # Hooks customizados
+
 │ ├── 📁 styles/ # Estilos globais
+
 │ └── 📁 utils/ # Funções auxiliares
+
 │
+
 ├── 📄 schema.sql # Criação do banco no Supabase
+
 ├── 📄 package.json
+
 ├── 📄 tsconfig.json
+
 └── 📄 README.md
 
 
