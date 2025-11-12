@@ -40,6 +40,7 @@ O foco é substituir planilhas e processos manuais por um **sistema moderno, seg
 - GitHub Actions (futuro opcional)
 
 gestororion/
+
 ├── 📂 public/ # Assets estáticos
 
 ├── 📂 src/
