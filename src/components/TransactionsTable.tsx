@@ -21,7 +21,7 @@ export default function TransactionsTable() {
         <tbody>
           {loading ? <tr><td className="px-4 py-6" colSpan={5}>Carregando...</td></tr> :
            rows.length === 0 ? <tr><td className="px-4 py-6" colSpan={5}>Sem lançamentos.</td></tr> :
-           rows.map(r => (
+           rows.map((r: any) => (
             <tr key={r.id} className="border-t border-neutral-800">
               <td className="px-4 py-2">{r.occurred_at}</td>
               <td className="px-4 py-2">{r.kind === 'income' ? 'Entrada' : 'Saída'}</td>
